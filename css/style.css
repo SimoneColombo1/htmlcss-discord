@@ -94,12 +94,13 @@ width: 14.7rem;
     flex-direction: row;
     justify-content: space-between;
     padding: 6rem 15rem 0rem 6rem;
+    
 }
 .informazioni img{
-    padding: 4rem 5rem 3rem 4rem;
+    padding: 0rem 5rem 3rem 4rem;
 }
 .informazioni div{
-    padding: 0rem 2rem 3rem 0rem;
+    padding: 4rem 2rem 3rem 0rem;
    
 }
 .informazioni h2{
@@ -109,22 +110,27 @@ width: 14.7rem;
 .informazioni p{
     margin-top: 1.5rem;
     line-height: 1.8rem;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 .informazioni-2{
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    padding: 6rem 15rem 0rem 20rem;   
+    padding: 6rem 15rem 0rem 10rem;   
 }
 
 .informazioni-2 h2{
-    font-size: 2rem;
+    font-size: 2.5rem;
     padding-bottom: 0rem;
 }
-.informazioni-2 span{
-    padding: 0rem 22rem 10rem 10rem;
+.informazioni-2 img{
+    padding: 0rem 1rem 4rem 4rem;
+}
+.informazioni-2 p{
+    margin-top: 1.5rem;
+    line-height: 1.8rem;
+    font-size: 1.3rem;
 }
 
 .informazioni-3{
@@ -133,16 +139,24 @@ width: 14.7rem;
 }
 .informazioni-3 h2{
     padding-bottom: 2rem;
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 .informazioni-3 p{
-    padding: 0rem 0rem 3rem 0rem;
+    font-size: 1.3rem;
+    padding: 1rem 2.5rem 3rem 0rem;
+    line-height: 1.8rem;
 
     
 }
+
 .informazioni-3 h3{
-    font-size: 2rem;
-    padding: 4rem;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+   background-size: 50rem ;
+    background-position: center;
+    font-size: 2.5rem;
+    padding: 4rem 4rem 0rem 4rem;
+    
 }
 .button-blue{
     border: 0px;
@@ -153,9 +167,12 @@ width: 14.7rem;
 }
 
 .informazioni-3 button{
-    height: 2rem;
-    width: 9rem;
+    height: 3.5rem;
+    width: 11rem;
+    margin: 4rem;
+    font-size: 1.1rem;
 }
+
 footer{
     background-color:#23272a ;
 }
@@ -176,9 +193,34 @@ footer{
     padding-bottom: 1rem;
 }
 .footer-top p{
-    padding-bottom: 1rem;
+    padding-bottom: 1.2rem;
     color: white;
+    
+   
 }
+.lingua{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+
+
+}
+.bandiera-italiana{
+    display: inline-block;
+    background-image: url(../img/ita.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1.7rem;
+    height: 1.3rem;
+    margin-right: 0.3rem;
+  
+}
+#freccia{
+    margin-left: 0.2rem;
+}
+    .loghi i {
+        padding: 0rem 0rem 0rem 1rem;
+    }
 
 .footer-top ul{
     list-style-type: none;
@@ -204,15 +246,19 @@ footer{
 
 
 }
-.footer-bottom p{
+.footer-bottom span{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 2rem 0rem 6rem 0rem;
+    padding: 1.5rem 0rem 6rem 0rem;
+    
 
     
 }
 .footer-bottom button{
     width: 5rem;
-    height: 2rem;
+    height: 2.5rem;
+    font-size: 0.8rem;
 }
+
+
